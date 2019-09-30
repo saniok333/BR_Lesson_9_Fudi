@@ -3,6 +3,7 @@ body {
     background-color: #ffffff;
     margin: 0;
     box-sizing: border-box;
+    zoom: 80%;
 }
 
 #main-banner {
@@ -267,8 +268,8 @@ vertical-align: middle;
 }
 
 #cusines > #cus-cont > .cus-item {
-    width: 320px;
-    height: 225px;
+    width: 320px;    
+    background-repeat: no-repeat;
     text-decoration: none;
     
 }
