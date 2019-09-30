@@ -1,0 +1,359 @@
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main-banner {
+    padding-bottom: 240px;
+    background: url("../img/main-image.jpg") no-repeat center top;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    
+    padding-left: 209px;
+}
+
+#r-cont {
+    padding-top: 50px;
+    padding-right: 210px;
+}
+
+
+
+#r-cont a {
+display: inline-block;
+text-shadow: -1px 1px 40px rgba(1, 1, 1, 0.55);
+color: #ffffff;
+font-family: Lato;
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 0.7px;
+text-decoration: none;
+margin-right: 30px;
+vertical-align: middle;
+}
+
+
+#main-banner h2 {
+    padding-top: 340px;
+    margin-top: 0;
+    opacity: 0.7;
+    text-shadow: -1px 1px 40px rgba(1, 1, 1, 0.55);
+    color: #ffffff;
+    font-family: "Times New Roman PS - Bold Italic MT";
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1.8px;
+    text-align: center;
+}
+
+#main-banner h1 {
+    padding-top: 19px;
+    margin-top: 0;
+    text-shadow: -1px 1px 40px rgba(1, 1, 1, 0.55);
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+#main-banner>div {
+    display: table;
+    margin: 0 auto;
+    
+}
+
+#main-banner>div>a {
+    display: table-cell;
+    text-decoration: none;
+    width: 280px;
+    height: 68px;
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.18px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 40px;
+    
+    
+}
+
+#main-banner>p {
+    
+    margin-top: 40px;
+    text-shadow: -1px 1px 40px rgba(1, 1, 1, 0.55);
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    text-align: center;
+    
+}
+
+#main-banner>p>a {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+#content-head {
+    display: flex;
+    
+    margin: 0 auto;
+    padding: 100px 210px;
+    
+
+}
+
+.get {
+    display: inline-block;
+    padding: 50px;
+    text-align: center;
+}
+
+.get>h3 {
+    color: #000000;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.under-ln {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.get>p {
+    
+    color: #000000;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0.8px;
+}
+
+#fudi-app {
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 880px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}   
+
+#fudi-app > img {
+    margin-top: 102px;
+    margin-left: 220px;
+    margin-bottom: -176px;
+}
+
+#fudi-app > #introducing {
+    margin-top: 182px;
+    margin-right: 208px;
+    margin-left: 115px;
+    color: #000;
+    font-family: Lato;
+}
+
+#fudi-app > #introducing > h3 {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+ 
+#fudi-app > #introducing > p {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    padding-bottom: 15px;
+}
+
+#fudi-app > #introducing > a {
+    margin-right: 10px;
+}
+
+#review {
+    padding-bottom: 81px;
+    background-color: #4a3949;
+    background-image: url(../img/review_ava.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+#review > img {
+    margin-top: 83px;
+}
+
+#review > p {
+    font-family: "Lato Hairline";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-left: 357px;
+    margin-right: 357px;
+}
+
+#review > p + p {
+
+    font-family: "Lato Hairline";
+    font-style: italic;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#review > p + img {
+    margin-top: 40px;
+}
+
+#cusines {
+    padding-top: 100px;
+    text-align: center;
+}
+
+#cusines > h3 {
+    color: #000000;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#cusines > #cus-cont {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#cusines > #cus-cont > .cus-item {
+    width: 320px;
+    height: 225px;
+    text-decoration: none;
+    
+}
+
+#cusines > #cus-cont > .cus-item > p {
+    opacity: 0.9;
+    text-shadow: -1px 1px 40px rgba(1, 1, 1, 0.55);
+    color: #ffffff;
+    font-family: "Times New Roman";
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1.8px;
+    margin-top: 76px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+#cusines > #cus-cont > .cus-item > p + p {
+    text-shadow: -1px 1px 40px rgba(1, 1, 1, 0.55);
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 4.22px;
+    margin-top: 0;
+    margin-bottom: 88px;
+    padding-top: 0;
+}
+
+#numbers {
+    padding: 58px 210px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Lato;
+    text-align: center;
+}
+
+#numbers > .numb-item > h2 {
+    color: #000000;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#numbers > .numb-item > p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    margin-top: 0;
+    padding-top: 12px;
+}
+
+footer {
+    background-color: #f7f7f7;
+    height: 93px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 210px;
+    align-items: center;
+}
+
+footer > span {
+    opacity: 0.5;
+    color: #8b8b8b;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+footer > span + span {
+    opacity: 1;
+    font-family: "Lato Light";
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2.8px;
+}
+
+footer > span > a {
+    font-family: "Lato Regular";
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+}
